@@ -59,6 +59,17 @@ a {
 body {
   padding-top: 50px;
 }
+body::-webkit-scrollbar{
+  width:10px;
+}
+body::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background-color: #ffc600;
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: black;
+}
 
 thead,
 th:first-child {
