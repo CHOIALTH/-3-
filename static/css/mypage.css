@@ -128,8 +128,6 @@ table {
 /* S: sort-css */
 /*! Customs CSS stylesheet */
 
-
-
 .card-img-top-custom {
   width: 50%;
   margin: 0 auto;
@@ -145,6 +143,7 @@ table {
 .card-deck {
   display: flex;
   justify-content: space-around;
+
   /* flex-flow: row wrap;
   align-items: stretch; */
 }
